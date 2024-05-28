@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b72534fc-9112-44aa-9bce-43a7075f1911" name="Changes" comment="">
+    <list default="true" id="65858500-a0f0-41e7-9a52-61732ced946e" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -21,6 +21,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "alexis-renee"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/alexis-renee/TastySubs.git",
+    "accountId": "7fead3f0-de3f-4c8e-a351-a40861530c19"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2h6CI3JroRmcyqefhD5fTHZnZ0z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,17 +47,17 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/Users/dondregrisom/Desktop/pluralsight-capstone/TastySubs/src/main/java/com/pluralsight/Main.java"
+    "onboarding.tips.debug.path": "/Library/pluralsight-capstone/TastySubs/src/main/java/com/pluralsight/Main.java"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b72534fc-9112-44aa-9bce-43a7075f1911" name="Changes" comment="" />
-      <created>1716484793239</created>
+      <changelist id="65858500-a0f0-41e7-9a52-61732ced946e" name="Changes" comment="" />
+      <created>1716905057918</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1716484793239</updated>
+      <updated>1716905057918</updated>
     </task>
     <servers />
   </component>
