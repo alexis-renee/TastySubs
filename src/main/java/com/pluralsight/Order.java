@@ -17,7 +17,7 @@ public class Order {
         sandwiches.add(sandwich);
     }
 
-    public void addDrink(String drink) {
+    public void addDrink (String drink) {
         drinks.add(drink);
     }
 
@@ -27,8 +27,8 @@ public class Order {
 
     public double calculateTotalCost() {
         double totalCost = sandwiches.stream().mapToDouble(Sandwich:calculateCost).sum();
-        totalCost += drinks.size() * 1.50; // Assuming $1.50 per drink
-        totalCost += chips.size() * 1.00; // Assuming $1.00 per chip
+        totalCost += drinks.size() * 1.50;
+        totalCost += chips.size() * 1.00;
         return totalCost;
     }
 

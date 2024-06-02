@@ -132,7 +132,7 @@ public class UserInterface {
         System.out.println("0) Cancel");
         System.out.print("Please select an option: ");
         int choice = scanner.nextInt();
-        scanner.nextLine(); // Consume newline character
+        scanner.nextLine();
 
         switch (choice) {
             case 1:
