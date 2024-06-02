@@ -3,6 +3,7 @@ package com.pluralsight;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 
 public class Sandwich {
@@ -47,4 +48,44 @@ public class Sandwich {
         cost += premiumToppings.size() * 1.00;
 
         return cost;
+    }
+    }
+private void Sandwich() {
+    System.out.println("\nAdd Sandwich:");
+    System.out.println("Select your bread: (white, wheat, rye, wrap)");
+    Scanner scanner;
+    String breadType = scanner.nextLine();
+    System.out.println("Sandwich size: (4\", 8\", 12\")");
+    String size = scanner.nextLine();
 
+    Sandwich sandwich = new Sandwich(size, breadType);
+
+    System.out.println("Toppings:");
+    System.out.println("Meat:");
+    String meat = scanner.nextLine();
+    sandwich.addPremiumTopping(meat);
+    System.out.println("Cheese:");
+    String cheese = scanner.nextLine();
+    sandwich.addPremiumTopping(cheese);
+    System.out.println("Other toppings:");
+    String otherToppings = scanner.nextLine();
+    String[] otherToppingsArray = otherToppings.split(",");
+    for (String topping : otherToppingsArray) {
+        sandwich.addRegularTopping(topping.trim());
+    }
+
+    System.out.println("Select sauces:");
+    String sauces = scanner.nextLine();
+    String[] saucesArray = sauces.split(",");
+    for (String sauce : saucesArray) {
+        sandwich.addRegularTopping(sauce.trim());
+    }
+
+    System.out.println("Would you like the sandwich toasted? (Y/N)");
+    String toastedInput = scanner.nextLine();
+    if (toastedInput.equalsIgnoreCase("Y")) {
+        sandwich.setToasted(true);
+    }
+
+
+}

@@ -18,5 +18,5 @@ public class Chips {
     }
 }
 public void display() {
-    System.out.println("Product Name:" + name);
+    System.out.println( "Chips" + name);
 }
