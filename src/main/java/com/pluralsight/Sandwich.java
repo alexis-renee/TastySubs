@@ -54,9 +54,9 @@ private void Sandwich() {
     System.out.println("\nAdd Sandwich:");
     System.out.println("Select your bread: (white, wheat, rye, wrap)");
     Scanner scanner;
-    String breadType = scanner.nextLine();
+    String breadType = Scanner.nextLine();
     System.out.println("Sandwich size: (4\", 8\", 12\")");
-    String size = scanner.nextLine();
+    String size = Scanner.nextLine();
 
     Sandwich sandwich = new Sandwich(size, breadType);
 

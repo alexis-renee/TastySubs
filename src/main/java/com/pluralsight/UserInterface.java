@@ -18,7 +18,7 @@ public class UserInterface {
             System.out.println("0) Exit");
             System.out.print("Please select an option: ");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline character
+            scanner.nextLine();
 
             switch (choice) {
                 case 1:
@@ -43,7 +43,7 @@ public class UserInterface {
             System.out.println("0) Cancel Order");
             System.out.print("Please select an option: ");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline character
+            scanner.nextLine();
 
             switch (choice) {
                 case 1:
@@ -82,12 +82,12 @@ public class UserInterface {
         sandwich.PremiumToppings(meat);
         System.out.println("Cheese:");
         String cheese = scanner.nextLine();
-        sandwich.addPremiumTopping(cheese);
+        sandwich.addPremiumToppings(cheese);
         System.out.println("Other toppings:");
         String otherToppings = scanner.nextLine();
         String[] otherToppingsArray = otherToppings.split(",");
         for (String topping : otherToppingsArray) {
-            sandwich.addRegularTopping(topping.trim());
+            sandwich.addRegularToppings(topping.trim());
         }
 
         System.out.println("Select sauces:");
@@ -103,7 +103,7 @@ public class UserInterface {
             sandwich.setToasted(true);
         }
 
-        currentOrder.addSandwich(sandwich);
+
     }
 
     private void addDrink() {
@@ -112,7 +112,6 @@ public class UserInterface {
         String size = scanner.nextLine();
         System.out.println("Select drink flavor:");
         String flavor = scanner.nextLine();
-        currentOrder.addDrink(size + " " + flavor);
         System.out.println("Drink added to the order.");
     }
 
@@ -120,14 +119,11 @@ public class UserInterface {
         System.out.println("\nAdd Chips:");
         System.out.println("Select chip type:");
         String chipType = scanner.nextLine();
-        Order currentOrder;
-        currentOrder.addChip(chipType);
         System.out.println("Chips added to the order.");
     }
 
     private void checkout() {
         System.out.println("\nCheckout:");
-        System.out.println(currentOrder.getOrderDetails());
         System.out.println("1) Confirm");
         System.out.println("0) Cancel");
         System.out.print("Please select an option: ");
@@ -136,12 +132,10 @@ public class UserInterface {
 
         switch (choice) {
             case 1:
-                currentOrder.saveReceipt();
                 System.out.println("Order confirmed. Receipt saved.");
                 displayHomeScreen();
                 break;
             case 0:
-                currentOrder = null;
                 System.out.println("Order canceled.");
                 displayHomeScreen();
                 break;
@@ -152,7 +146,6 @@ public class UserInterface {
     }
 
     private void cancelOrder() {
-        currentOrder = null;
         System.out.println("Order canceled.");
         displayHomeScreen();
     }

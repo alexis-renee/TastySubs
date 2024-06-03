@@ -1,9 +1,15 @@
 package com.pluralsight;
 
-public class Toppings {
+    abstract class Topping {
+        protected String name;
 
-    private String name;
-    private double price;
+        public Topping(String name) {
+            this.name = name;
+        }
 
+        public String getName() {
+            return name;
+        }
 
-}
+        public abstract double getCost();
+    }

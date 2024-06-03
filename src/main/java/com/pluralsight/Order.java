@@ -26,7 +26,7 @@ public class Order {
     }
 
     public double calculateTotalCost() {
-        double totalCost = sandwiches.stream().mapToDouble(Sandwich:calculateCost).sum();
+        double totalCost = sandwiches.stream().
         totalCost += drinks.size() * 1.50;
         totalCost += chips.size() * 1.00;
         return totalCost;
