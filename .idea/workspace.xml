@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65858500-a0f0-41e7-9a52-61732ced946e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/Chips.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/Drinks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/PremiumToppings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/RegularToppings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/Sandwich.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/Sauces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/Toppings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/UserInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/Main.java" beforeDir="false" />
-    </list>
+    <list default="true" id="65858500-a0f0-41e7-9a52-61732ced946e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
